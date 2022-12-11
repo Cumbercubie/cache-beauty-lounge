@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-line-between {
+  font-family: "Pinyon Script";
+  margin: .5em auto;
+  color: #75492c;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: bolder;
+  max-width: 600px;
+  position: relative;
+}
+
+.header-line-between:before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 2px;
+  background: #75492c;
+  left: -65%;
+  top: 50%;
+  position: absolute;
+
+}
+
+.header-line-between:after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 2px;
+  background: #75492c;
+  right: -65%;
+  top: 50%;
+  position: absolute;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
