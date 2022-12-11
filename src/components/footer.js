@@ -7,8 +7,8 @@ export default function Footer() {
       className="bottom-0  w-full p-4 sm:p-6"
       style={{ background: themeColor }}
     >
-      <div className="md:flex md:justify-between gap-1">
-        <div className="mb-6 md:mb-0">
+      <div className="md:flex md:justify-left gap-1">
+        <div className="mb-6 md:mb-0 flex-1">
           <a href="https://flowbite.com/" className="flex items-center">
             <img
               src="https://flowbite.com/docs/images/logo.svg"
@@ -23,7 +23,7 @@ export default function Footer() {
             </span>
           </a>
         </div>
-        <div className="grid justify-items-start grid grid-cols-3 gap-10 sm:gap-10">
+        <div className="grid justify-items-start grid grid-cols-2 gap-10 sm:gap-10">
           <div>
             <h2 className="mb-6 text-md font-semibold text-gray-900 uppercase dark:text-white">
               Follow us

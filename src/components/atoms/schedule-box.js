@@ -10,7 +10,7 @@ export default function ScheduleBox({
     <div className="text-center my-5">
       <div className="flex flex-row justify-center">
         <div
-          className={`flex flex-row rounded-md border border-transparent p-3 ${bgColor}  h-full w-1/3 inline-block`}
+          className={`flex flex-row rounded-md border border-transparent p-3 ${bgColor} mx-4 lg:mx-none  h-full w-full lg:w-1/3 inline-block`}
         >
           <div className="flex flex-col flex-wrap justify-center w-1/5 bg-white rounded-md">
             <div className="text-indigo text-xl font-extrabold">{fromDay}</div>

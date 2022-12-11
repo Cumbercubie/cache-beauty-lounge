@@ -8,7 +8,7 @@ import Services from "./components/service";
 import { iconTextColor } from "./constants/index";
 export default function App() {
   return (
-    <div className="grid container">
+    <div>
       <Hero />
       <p
         className="text-5xl font-extrabold pt-5 text-center"

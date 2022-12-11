@@ -2,10 +2,10 @@ import DayButton from "./atoms/day-button";
 import { phoneNumber, phoneNumberText } from "../constants";
 export default function Apppointment(props) {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 h-3/4 w-full mx-auto my-8 px-72">
+    <div className="grid grid-cols-1 lg:grid-cols-2 ">
       <div className="flex justify-center">
         <img
-          // className="w-full h-3/4 object-fill border rounded-3xl"
+          className="h-3/4 object-fill border rounded-3xl"
           alt="appointment"
           src="/images/appointment/face_flower.jpg"
         />
