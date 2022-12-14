@@ -8,7 +8,7 @@ import "./css/service.css";
 import "./index.css";
 import About from "./pages/about";
 import ServicesPage from "./pages/services";
-// import "tw-elements";
+import "tw-elements";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([

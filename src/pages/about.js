@@ -1,11 +1,11 @@
-import { fontFamily } from "../constants";
+import { fontFamily, themeColor } from "../constants";
 import { aboutUsContent } from "../constants/about";
 
 export default function About(props) {
   return (
     <div className="container py-4 px-12 lg:px-36">
       <div
-        style={{ fontFamily: fontFamily }}
+        style={{ fontFamily: fontFamily, color: themeColor }}
         className="text-6xl font-bold block text-center my-8"
       >
         Cache Beauty Lounge

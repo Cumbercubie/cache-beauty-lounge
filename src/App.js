@@ -1,4 +1,5 @@
 import Apppointment from "./components/appointment";
+import Carousel from "./components/atoms/carousel";
 import Footer from "./components/footer";
 import Gallery from "./components/gallery";
 import Header from "./components/header";
@@ -10,6 +11,13 @@ export default function App() {
   return (
     <div>
       <Hero />
+      <p
+        className="text-5xl font-extrabold pt-5 text-center"
+        style={{ fontFamily: "Pinyon Script", color: iconTextColor }}
+      >
+        Our Promotion
+      </p>
+      <Carousel />
       <p
         className="text-5xl font-extrabold pt-5 text-center"
         style={{ fontFamily: "Pinyon Script", color: iconTextColor }}
@@ -37,7 +45,13 @@ export default function App() {
       >
         Appointment
       </p> */}
-      {/* <div className="header-line-between">Appointment</div> */}
+      <p
+        className="text-5xl font-extrabold pt-10 text-center"
+        style={{ fontFamily: "Pinyon Script", color: iconTextColor }}
+      >
+        Appointment
+      </p>
+      {/* {/* <div className="header-line-between">Appointment</div> */}
       <Apppointment />
     </div>
   );
