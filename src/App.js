@@ -1,5 +1,5 @@
 import Apppointment from "./components/appointment";
-import Carousel from "./components/atoms/carousel";
+import PromotionCarousel from "./components/promotion-carousel";
 import Footer from "./components/footer";
 import Gallery from "./components/gallery";
 import Header from "./components/header";
@@ -7,6 +7,7 @@ import Hero from "./components/hero";
 import Schedule from "./components/schedule";
 import Services from "./components/service";
 import { iconTextColor } from "./constants/index";
+import Testimonials from "./components/testimonials";
 export default function App() {
   return (
     <div>
@@ -17,7 +18,7 @@ export default function App() {
       >
         Our Promotion
       </p>
-      <Carousel />
+      <PromotionCarousel />
       <p
         className="text-5xl font-extrabold pt-5 text-center"
         style={{ fontFamily: "Pinyon Script", color: iconTextColor }}
@@ -33,7 +34,7 @@ export default function App() {
       </p>
       <Services />
       <p
-        className="text-5xl font-extrabold pt-10 text-center"
+        className="text-5xl font-extrabold pt-10 mb-8 text-center"
         style={{ fontFamily: "Pinyon Script", color: iconTextColor }}
       >
         Gallery
@@ -45,6 +46,13 @@ export default function App() {
       >
         Appointment
       </p> */}
+      <p
+        className="text-5xl font-extrabold pt-10 text-center"
+        style={{ fontFamily: "Pinyon Script", color: iconTextColor }}
+      >
+        What our clients say
+      </p>
+      <Testimonials />
       <p
         className="text-5xl font-extrabold pt-10 text-center"
         style={{ fontFamily: "Pinyon Script", color: iconTextColor }}
