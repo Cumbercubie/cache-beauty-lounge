@@ -6,7 +6,7 @@ export default function ServiceItem({ name, price }) {
       <div className="font-light text-xl">{name}</div>
       <div
         style={{ borderColor: themeColor }}
-        className="mx-2 h-22 flex-1 border-dotted border-b-2"
+        className="mx-2 h-[22px] flex-1 border-dotted border-b-2"
       ></div>
       <div className="font-bold text-xl">${price}</div>
     </div>

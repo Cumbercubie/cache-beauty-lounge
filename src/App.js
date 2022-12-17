@@ -5,7 +5,7 @@ import Gallery from "./components/gallery";
 import Header from "./components/header";
 import Hero from "./components/hero";
 import Schedule from "./components/schedule";
-import Services from "./components/service";
+import ServiceListing from "./components/services-listing/services-listing";
 import { iconTextColor } from "./constants/index";
 import Testimonials from "./components/testimonials";
 export default function App() {
@@ -13,14 +13,14 @@ export default function App() {
     <div>
       <Hero />
       <p
-        className="text-5xl font-extrabold pt-5 text-center"
+        className="text-6xl font-extrabold my-8 text-center"
         style={{ fontFamily: "Pinyon Script", color: iconTextColor }}
       >
         Our Promotion
       </p>
       <PromotionCarousel />
       <p
-        className="text-5xl font-extrabold pt-5 text-center"
+        className="text-6xl font-extrabold pt-5 text-center my-8"
         style={{ fontFamily: "Pinyon Script", color: iconTextColor }}
       >
         Schedule
@@ -32,9 +32,9 @@ export default function App() {
       >
         Our Services
       </p>
-      <Services />
+      <ServiceListing />
       <p
-        className="text-5xl font-extrabold pt-10 mb-8 text-center"
+        className="text-6xl font-extrabold pt-10 mb-8 text-center"
         style={{ fontFamily: "Pinyon Script", color: iconTextColor }}
       >
         Gallery

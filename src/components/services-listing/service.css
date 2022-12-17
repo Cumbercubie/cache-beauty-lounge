@@ -1,0 +1,107 @@
+:root {
+    --white: #F1F1F1;
+    --black: #75492c;
+
+}
+
+/* html,
+body {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: #F1f1f1;
+} */
+
+.wrapper {
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+
+.wrapper .button {
+    height: 60px;
+    color: #262626;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 8px;
+}
+
+.wrapper .cache-border {
+    background: var(--black);
+}
+
+.wrapper .top {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    margin: auto;
+    opacity: 0;
+    transition: all .2s linear .3s;
+}
+
+.wrapper:hover .top {
+    left: 0;
+    width: 100%;
+    opacity: 1;
+    transition: all .2s linear;
+}
+
+.wrapper .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 0;
+    margin: auto;
+    transition: all .1s linear .2s;
+}
+
+.wrapper .left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+    margin: auto;
+    transition: all .1s linear .2s;
+}
+
+.wrapper:hover .right,
+.wrapper:hover .left {
+    transition: all .1s linear .2s;
+    height: 100%;
+}
+
+.wrapper .bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    margin: auto;
+    transition: all .2s linear;
+}
+
+.wrapper .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    margin: auto;
+    transition: all .2s linear;
+}
+
+
+.wrapper:hover .bottom-left,
+.wrapper:hover .bottom-right {
+    transition: all .2s linear .3s;
+    width: 100%;
+}

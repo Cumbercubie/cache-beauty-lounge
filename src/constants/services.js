@@ -2,10 +2,15 @@ export const services = {
   MANICURE: "MANICURE",
   PEDICURE: "PEDICURE",
   SPA: "SPA",
+  EYELASH: "EYELASH",
+  HAIR: "HAIR",
+  CHILDREN: "CHILDREN",
 };
 
 export const classicServices = [
   {
+    id: 1,
+    value: services.PEDICURE,
     groupName: "Pedicure",
     services: [
       {
@@ -47,60 +52,19 @@ export const classicServices = [
     ],
   },
   {
-    groupName: "Therapeutic Mani & Pedi Treatment",
-    services: [
-      {
-        name: "Manicure",
-        price: "35",
-      },
-      {
-        name: "Pedicure",
-        price: "55",
-      },
-    ],
-  },
-  {
+    id: 2,
+    value: services.SPA,
     groupName: "Spa",
     services: [
       {
         name: "Black Pearl",
         price: "70",
       },
-      {
-        name: "Classic mani",
-        price: "25",
-      },
-      {
-        name: "Classic mani",
-        price: "25",
-      },
-      {
-        name: "Classic mani",
-        price: "25",
-      },
-      {
-        name: "Classic mani",
-        price: "25",
-      },
-      {
-        name: "Classic mani",
-        price: "25",
-      },
-      {
-        name: "Classic mani",
-        price: "25",
-      },
-      {
-        name: "Classic mani",
-        price: "25",
-      },
-      {
-        name: "Classic mani",
-        price: "25",
-      },
     ],
   },
   {
+    id: 3,
+    value: services.MANICURE,
     groupName: "Manicure",
     services: [
       {
@@ -119,6 +83,44 @@ export const classicServices = [
         name: "Classic mani",
         price: "25",
       },
+      {
+        name: "Classic mani",
+        price: "25",
+      },
+    ],
+  },
+  {
+    id: 4,
+    value: services.HAIR,
+    groupName: "Hair Removal",
+    services: [
+      {
+        name: "Classic mani",
+        price: "25",
+      },
+      {
+        name: "Classic mani",
+        price: "25",
+      },
+      {
+        name: "Classic mani",
+        price: "25",
+      },
+      {
+        name: "Classic mani",
+        price: "25",
+      },
+      {
+        name: "Classic mani",
+        price: "25",
+      },
+    ],
+  },
+  {
+    id: 4,
+    value: services.EYELASH,
+    groupName: "Eye Lash",
+    services: [
       {
         name: "Classic mani",
         price: "25",
