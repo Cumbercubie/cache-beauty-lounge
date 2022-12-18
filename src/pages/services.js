@@ -17,18 +17,20 @@ export default function ServicesPage() {
                 />
               </div>
               <div className="grid col-span-2 grid-cols-1">
-                <div className="text-4xl font-bold uppercase">
-                  {group.groupName}
-                </div>
-                <hr className="w-full my-4 h-0.5 bg-indigo-600 rounded border-0" />
-                <div className="grid grid-cols-2 gap-4">
-                  {group.services.map((s) => (
-                    <ServiceItem
-                      id={group.groupName}
-                      name={s.name}
-                      price={s.price}
-                    />
-                  ))}
+                <div>
+                  <div className="text-4xl font-bold uppercase">
+                    {group.groupName}
+                  </div>
+                  <hr className="w-full my-4 h-0.5 bg-indigo-600 rounded border-0" />
+                  <div className="grid grid-cols-2 gap-4">
+                    {group.services.map((s) => (
+                      <ServiceItem
+                        id={group.groupName}
+                        name={s.name}
+                        price={s.price}
+                      />
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

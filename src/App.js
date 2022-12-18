@@ -27,7 +27,7 @@ export default function App() {
       </p>
       <Schedule />
       <p
-        className="text-5xl font-extrabold pt-5 text-center"
+        className="text-6xl font-extrabold pt-5 text-center"
         style={{ fontFamily: "Pinyon Script", color: iconTextColor }}
       >
         Our Services
@@ -47,14 +47,14 @@ export default function App() {
         Appointment
       </p> */}
       <p
-        className="text-5xl font-extrabold pt-10 text-center"
+        className="text-6xl font-extrabold pt-10 text-center"
         style={{ fontFamily: "Pinyon Script", color: iconTextColor }}
       >
         What our clients say
       </p>
       <Testimonials />
       <p
-        className="text-5xl font-extrabold pt-10 text-center"
+        className="text-6xl font-extrabold pt-10 text-center"
         style={{ fontFamily: "Pinyon Script", color: iconTextColor }}
       >
         Appointment
