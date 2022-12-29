@@ -35,32 +35,34 @@ export default function ServiceListing(props) {
     },
   ];
   return (
-    <div className="w-full px-2 lg:w-1/2 pt-10 place-items-center gap-5 grid grid-cols-3 mx-auto">
-      {serviceList?.map((s) => (
-        <div
-          className="wrapper"
-          onClick={() => window.open(`/services#${s.value}`)}
-        >
-          <div>
-            <img
-              className=" mx-auto w-1/2 lg:w-1/2"
-              src={s.imagepath}
-              alt="service"
-            />
-            <div
-              className="text-center text-1xl lg:text-2xl font-bold"
-              style={{ color: iconTextColor }}
-            >
-              {s.name}
+    <div className="bg-orange-100 rounded-l-[150px]">
+      <div className="w-full px-2 lg:w-1/2 py-10 place-items-center gap-5 grid grid-cols-3 mx-auto">
+        {serviceList?.map((s) => (
+          <div
+            className="wrapper"
+            onClick={() => window.open(`/services#${s.value}`)}
+          >
+            <div>
+              <img
+                className=" mx-auto w-1/2 lg:w-1/2"
+                src={s.imagepath}
+                alt="service"
+              />
+              <div
+                className="text-center text-1xl lg:text-2xl font-bold"
+                style={{ color: iconTextColor }}
+              >
+                {s.name}
+              </div>
             </div>
+            <div class="cache-border top"></div>
+            <div class="cache-border left"></div>
+            <div class="cache-border right"></div>
+            <div class="cache-border bottom-left"></div>
+            <div class="cache-border bottom-right"></div>
           </div>
-          <div class="cache-border top"></div>
-          <div class="cache-border left"></div>
-          <div class="cache-border right"></div>
-          <div class="cache-border bottom-left"></div>
-          <div class="cache-border bottom-right"></div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }

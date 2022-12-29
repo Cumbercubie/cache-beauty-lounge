@@ -1,6 +1,11 @@
 import { Fragment, useEffect } from "react";
 import ServiceItem from "../components/atoms/service-item";
-import { classicServices, services } from "../constants";
+import {
+  classicServices,
+  iconTextColor,
+  services,
+  themeColor,
+} from "../constants";
 
 export default function ServicesPage() {
   const renderService = (group, imageSide = "left") => {
@@ -45,8 +50,11 @@ export default function ServicesPage() {
                   <div className="text-4xl font-bold uppercase">
                     {group.groupName}
                   </div>
-                  <hr className="w-full my-4 h-0.5 bg-indigo-600 rounded border-0" />
-                  <div className="grid grid-cols-2 gap-4">
+                  <hr
+                    className="w-full my-4 h-0.5 rounded border-0"
+                    style={{ backgroundColor: iconTextColor }}
+                  />
+                  <div className={`grid grid-cols-2 gap-4`}>
                     {group.services.map((s) => (
                       <ServiceItem
                         id={group.groupName}

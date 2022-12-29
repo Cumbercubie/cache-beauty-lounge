@@ -1,13 +1,14 @@
 export default function Testimonials(props) {
   return (
-    <section class="mb-20 text-gray-700 my-8 mx-24">
+    <section class="text-gray-700 rounded-r-full py-8 px-24 bg-orange-100">
       <div class="grid md:grid-cols-3 gap-6 lg:gap-12 text-center">
         <div class="mb-12 md:mb-0">
           <div class="flex justify-center mb-6">
-            <img
+            {/* <img
               src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
               class="rounded-full shadow-lg w-32"
-            />
+            /> */}
+            <span className="mdi mdi-account-circle text-6xl text-top"></span>
           </div>
           <h5 class="text-xl font-semibold mb-4">Maria Smantha</h5>
           <h6 class="font-semibold text-blue-600 mb-4">Web Developer</h6>
