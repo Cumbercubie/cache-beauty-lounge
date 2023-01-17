@@ -15,6 +15,7 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { Link } from "react-router-dom";
 
 const solutions = [
   {
@@ -135,19 +136,24 @@ export default function Header() {
               About Us
             </a>
 
-            <a
-              href="/services"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Services
-            </a>
-            <a
-              href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Docs
-            </a>
-
+            <div className="group">
+              <a
+                href="/services"
+                className="text-base font-medium text-gray-500 hover:text-gray-900 inline-block relative"
+              >
+                Services
+              </a>
+              <ul className="absolute hidden text-gray-700 pt-1 group-hover:block">
+                <li>
+                  <a
+                    class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href={"/services/nails"}
+                  >
+                    One
+                  </a>
+                </li>
+              </ul>
+            </div>
             <Popover className="relative">
               {({ open }) => (
                 <>

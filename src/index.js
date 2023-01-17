@@ -9,12 +9,19 @@ import "./index.css";
 import About from "./pages/about";
 import ServicesPage from "./pages/services";
 import "tw-elements";
+import NailServicePage from "./pages/services/nails";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
   {
     path: "/services",
     element: <ServicesPage />,
+    children: [
+      {
+        path: "nails",
+        element: <NailServicePage />,
+      },
+    ],
   },
   {
     path: "/about-us",
