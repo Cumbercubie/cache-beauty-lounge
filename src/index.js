@@ -16,12 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/services",
     element: <ServicesPage />,
-    children: [
-      {
-        path: "nails",
-        element: <NailServicePage />,
-      },
-    ],
+  },
+  {
+    path: "/services/nails",
+    element: <NailServicePage />,
   },
   {
     path: "/about-us",
