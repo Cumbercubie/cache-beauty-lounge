@@ -88,7 +88,7 @@ export default function ServicesPage() {
       ?.scrollIntoView({ behavior: "smooth", block: "start" });
   }, []);
   return (
-    <div className="container mx-auto px-12 lg:px-36">
+    <div id="services-panel" className="container mx-auto px-12 lg:px-36">
       {classicServices.map((group, index) => {
         return renderService(group, index % 2 == 0 ? "left" : "right");
       })}

@@ -35,7 +35,7 @@ export default function ServiceListing(props) {
     },
   ];
   return (
-    <div className="bg-orange-100 rounded-l-[150px]">
+    <div id=" " className="bg-orange-100 rounded-l-[150px]">
       <div className="w-full px-2 lg:w-1/2 py-10 place-items-center gap-5 grid grid-cols-3 mx-auto">
         {serviceList?.map((s) => (
           <div
