@@ -15,8 +15,8 @@ export default function App() {
   return (
     <div>
       <Hero />
-      <Headline text={"Our Promotion"} />
-      <PromotionCarousel />
+      {/* <Headline text={"Our Promotion"} />
+      <PromotionCarousel /> */}
       <Headline text={"Schedule"} />
       <Schedule />
       <Headline text={"Services"} />
