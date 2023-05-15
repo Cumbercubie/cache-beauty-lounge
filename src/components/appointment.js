@@ -9,7 +9,7 @@ export default function Apppointment(props) {
           width={300}
           className="object-fill border rounded-3xl"
           alt="appointment"
-          src="/images/appointment/face_flower.jpg"
+          src="/images/ad.jpg"
         />
       </div>
       <div className="flex flex-col gap-8 h-3/4 justify-center">
