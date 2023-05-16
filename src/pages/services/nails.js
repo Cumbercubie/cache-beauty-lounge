@@ -5,20 +5,19 @@ import FluidBox from "../../components/fluid-box/fluid-box";
 export default function NailServicePage() {
   return (
     <div className="container mx-auto py-12">
-      <div
+      {/* <div
         style={{
           display: "flex",
           justifyContent: "center",
         }}
       >
         <FluidBox />
-      </div>
+      </div> */}
       <CardWithImages
         imageSource={
           <img
             className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-            src={"/images/appointment/face_flower.jpg"}
-            alt=""
+            src={"/images/ad.jpg"}
           />
         }
         title={"Nail Service"}
@@ -50,7 +49,7 @@ export default function NailServicePage() {
         imageSource={
           <img
             className="object-contain w-full rounded-t-lg h-96 md:h-auto md:w-80 md:rounded-none md:rounded-l-lg"
-            src={"/images/appointment/face_flower.jpg"}
+            src={"/images/ad.jpg"}
             alt=""
           />
         }
