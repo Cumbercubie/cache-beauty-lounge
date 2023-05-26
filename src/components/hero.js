@@ -25,8 +25,7 @@ export default function Hero() {
             Cache Beauty Lounge
           </h1>
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-            From checkout to global sales tax compliance, companies around the
-            world use Flowbite to simplify their payment stack.
+          Welcome to our luxurious beauty salon, where beauty meets relaxation! Step into a world of indulgence and let our team of skilled professionals pamper you from head to toe.
           </p>
           {/* <a
             href="#"

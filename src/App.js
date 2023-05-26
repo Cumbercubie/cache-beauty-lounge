@@ -25,8 +25,8 @@ export default function App() {
       <Headline text={"Gallery"} />
 
       <Gallery />
-      <Headline text={"What our clients say"} />
-      <Testimonials />
+      {/* <Headline text={"What our clients say"} />
+      <Testimonials /> */}
       <Headline text={"Appointment"} />
 
       <Apppointment />
