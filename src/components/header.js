@@ -16,6 +16,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
+import { fontFamily } from "../constants";
 
 const solutions = [
   {
@@ -128,17 +129,22 @@ export default function Header() {
       <nav className="mx-auto w-full px-4 sm:px-6">
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start items-center gap-2 lg:w-0 lg:flex-1">
-            <a href="#">
+            {/* <a href="#">
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto sm:h-10"
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                 alt=""
               />
+            </a> */}
+            <a href="/">
+              <span
+                className="inline-block align-middle text-4xl font-bold"
+                style={{ fontFamily: fontFamily }}
+              >
+                Cache Beauty Lounge
+              </span>
             </a>
-            <span className="inline-block align-middle text-2xl">
-              Cache Beauty Lounge
-            </span>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -197,6 +203,16 @@ export default function Header() {
                       >
                         <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                           <div className="relative grid gap-6 bg-white px-3 py-3 sm:gap-8 sm:p-8">
+                            <a
+                              href="/services"
+                              className="-m-3 flex item-start rounded-lg p-3 hover:bg-gray-50"
+                            >
+                              <div>
+                                <p className="text-base font-medium text-gray-900">
+                                  {"Menu"}
+                                </p>
+                              </div>
+                            </a>
                             <a
                               href="/services/nails"
                               className="-m-3 flex item-start rounded-lg p-3 hover:bg-gray-50"
