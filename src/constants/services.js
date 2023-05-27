@@ -116,53 +116,119 @@ export const classicServices = [
     id: 4,
     value: services.HAIR,
     groupName: "Hair Removal",
+    image: "/images/services/wax.jpg",
     services: [
       {
-        name: "Classic mani",
-        price: "25",
+        name: "Eyebrows",
+        price: "10",
       },
       {
-        name: "Classic mani",
-        price: "25",
+        name: "Chin",
+        price: "15",
       },
       {
-        name: "Classic mani",
-        price: "25",
+        name: "Sideburn",
+        price: "18+",
       },
       {
-        name: "Classic mani",
-        price: "25",
+        name: "Lips",
+        price: "8+",
       },
       {
-        name: "Classic mani",
-        price: "25",
+        name: "Half arms",
+        price: "40+",
+      },
+      {
+        name: "Full arms",
+        price: "50+",
+      },
+      {
+        name: "Under arms",
+        price: "30+",
+      },
+      {
+        name: "Toes/Fingers",
+        price: "17+",
+      },
+      {
+        name: "Full leg",
+        price: "80+",
+      },
+      {
+        name: "Half leg",
+        price: "50+",
+      },
+      {
+        name: "Chest/Back",
+        price: "60+",
+      },
+      {
+        name: "Bikini",
+        price: "45+",
+      },
+      {
+        name: "Brazilian",
+        price: "70+",
+      },
+      {
+        name: "Eyebrowns + Lips + Chin",
+        price: "30+",
       },
     ],
   },
   {
     id: 4,
     value: services.EYELASH,
+    image: "/images/services/eyelash-mascara.jpg",
     groupName: "Eye Lash",
     services: [
       {
-        name: "Classic mani",
-        price: "25",
+        name: "Classic full set (1-2 hrs)",
+        price: "150",
       },
       {
-        name: "Classic mani",
-        price: "25",
+        name: "Volum hybrid full set (2 hrs)",
+        price: "220",
       },
       {
-        name: "Classic mani",
-        price: "25",
+        name: "Volum full set (2-2.5 hrs)",
+        price: "230",
+      },
+    ],
+  },
+  {
+    id: 4,
+    value: services.CHILDREN,
+    groupName: "Princess Mani & Pedi",
+    image: "/images/services/princess-spa-couch.jpg",
+    services: [
+      {
+        name: "Princess mani",
+        price: "10",
       },
       {
-        name: "Classic mani",
-        price: "25",
+        name: "Princess pedi",
+        price: "10",
       },
       {
-        name: "Classic mani",
-        price: "25",
+        name: "Princess mani & pedi",
+        price: "30",
+      },
+      {
+        name: "Just nail polish",
+        price: "5",
+      },
+      {
+        name: "Nail & toes polish",
+        price: "15",
+      },
+      {
+        name: "Gel polish add on",
+        price: "10",
+      },
+      {
+        name: "Design",
+        price: "3+",
       },
     ],
   },

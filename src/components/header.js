@@ -213,7 +213,7 @@ export default function Header() {
                                 </p>
                               </div>
                             </a>
-                            <a
+                            {/* <a
                               href="/services/nails"
                               className="-m-3 flex item-start rounded-lg p-3 hover:bg-gray-50"
                             >
@@ -222,8 +222,8 @@ export default function Header() {
                                   {"Nails"}
                                 </p>
                               </div>
-                            </a>
-                            <a
+                            </a> */}
+                            {/* <a
                               href="/services/waxing"
                               className="-m-3 flex item-start rounded-lg p-3 hover:bg-gray-50"
                             >
@@ -242,7 +242,7 @@ export default function Header() {
                                   {"Eyelash"}
                                 </p>
                               </div>
-                            </a>
+                            </a> */}
                           </div>
                         </div>
                       </Popover.Panel>

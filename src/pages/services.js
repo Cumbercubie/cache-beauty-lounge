@@ -16,7 +16,7 @@ export default function ServicesPage() {
             <div className="grid grid-cols-1 gap-4 align-items-center lg:grid-cols-3">
               <div className="grid justify-items-start align-middle">
                 <img
-                  src="/images/services/3-3.png"
+                  src={group.image || "/images/services/3-3.png"}
                   alt="service"
                   className="rounded-full border border-4 border-indigo-600 w-64 h-64"
                 />
@@ -67,7 +67,7 @@ export default function ServicesPage() {
               </div>
               <div className="grid justify-items-end align-middle">
                 <img
-                  src="/images/services/3-3.png"
+                  src={group.image || "/images/services/3-3.png"}
                   alt="service"
                   className="rounded-full border border-4 border-indigo-600 w-64 h-64"
                 />
@@ -82,7 +82,6 @@ export default function ServicesPage() {
 
   useEffect(() => {
     const anchor = window.location?.hash?.split("#")[1] || "";
-    console.log(anchor);
     document
       .getElementById(anchor)
       ?.scrollIntoView({ behavior: "smooth", block: "start" });

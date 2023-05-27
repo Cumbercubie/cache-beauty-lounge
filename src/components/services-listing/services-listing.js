@@ -5,7 +5,7 @@ export default function ServiceListing(props) {
   const serviceList = [
     {
       imagepath: "/icons/manicure.png",
-      value: services.MANICURE,
+      value: services.MANI_PEDI,
       name: "Manicure",
     },
     {
@@ -20,12 +20,12 @@ export default function ServiceListing(props) {
     },
     {
       imagepath: "/icons/pedicure.png",
-      value: services.PEDICURE,
+      value: services.MANI_PEDI,
       name: "Pedicure",
     },
     {
       imagepath: "/icons/corte.png",
-      value: services.WAXING,
+      value: services.HAIR,
       name: "Hair",
     },
     {
