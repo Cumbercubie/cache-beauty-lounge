@@ -1,7 +1,7 @@
 import { fontFamily, iconTextColor, themeColor } from "../constants";
 
 export default function Footer() {
-  const iconRender = (name) => {};
+  // const iconRender = (name) => {};
   return (
     <footer
       className="bottom-0  w-full p-4 sm:p-6"
@@ -9,11 +9,11 @@ export default function Footer() {
     >
       <div className="md:flex md:justify-left gap-1">
         <div className="mb-6 md:mb-0 flex-1 flex items-center">
-          <img
+          {/* <img
             src="https://flowbite.com/docs/images/logo.svg"
             className="mr-3 h-8 "
             alt="FlowBite Logo"
-          />
+          /> */}
           <span
             style={{ fontFamily: fontFamily }}
             className="self-center text-4xl font-bold whitespace-wrap text-white"

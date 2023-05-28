@@ -53,6 +53,7 @@ export const classicServices = [
   {
     id: 2,
     value: services.NAIL_ENHANCE,
+    image: "/images/services/manicure.png",
     groupName: "Nail Enhancement",
     services: [
       {

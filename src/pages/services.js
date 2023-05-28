@@ -18,7 +18,7 @@ export default function ServicesPage() {
                 <img
                   src={group.image || "/images/services/3-3.png"}
                   alt="service"
-                  className="rounded-full border border-4 border-indigo-600 w-64 h-64"
+                  className="rounded-full border border-4 border-red-950 w-64 h-64"
                 />
               </div>
               <div className="grid col-span-2 grid-cols-1">
@@ -26,7 +26,7 @@ export default function ServicesPage() {
                   <div className="text-4xl font-bold uppercase">
                     {group.groupName}
                   </div>
-                  <hr className="w-full my-4 h-0.5 bg-indigo-600 rounded border-0" />
+                  <hr className="w-full my-4 h-0.5 bg-red-950 rounded border-0" />
                   <div className="grid grid-cols-2 gap-4">
                     {group.services.map((s) => (
                       <ServiceItem
@@ -69,7 +69,7 @@ export default function ServicesPage() {
                 <img
                   src={group.image || "/images/services/3-3.png"}
                   alt="service"
-                  className="rounded-full border border-4 border-indigo-600 w-64 h-64"
+                  className="rounded-full border border-4 border-red-950 w-64 h-64"
                 />
               </div>
             </div>

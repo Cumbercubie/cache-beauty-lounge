@@ -8,16 +8,16 @@ export default function Gallery(props) {
       imagePath: `${baseImageUrl}/doing-nail-painting.jpg`,
     },
     {
-      imagePath: `${baseImageUrl}/foot-massage.jpg`,
-    },
-    {
-      imagePath: `${baseImageUrl}/3-3.png`,
-    },
-    {
-      imagePath: `${baseImageUrl}/doing-nail-painting.jpg`,
+      imagePath: `${baseImageUrl}/eye-lash-single.jpg`,
     },
     {
       imagePath: `${baseImageUrl}/foot-massage.jpg`,
+    },
+    {
+      imagePath: `${baseImageUrl}/facial-treatments.jpg`,
+    },
+    {
+      imagePath: `${baseImageUrl}/hot-stone-spa-women.jpg`,
     },
   ];
   return (

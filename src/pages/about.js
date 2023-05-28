@@ -1,6 +1,4 @@
-import { fontFamily, themeColor } from "../constants";
-import { aboutUsContent } from "../constants/about";
-
+import { fontFamily, themeColor, aboutUsContent } from "../constants";
 export default function About(props) {
   return (
     <div className="container py-4 px-12 lg:px-36">
